@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+    max-width: 336px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.top{
+   width: 336.5px;
+   height: 30px;
+   background-color: aqua;
+   /* background-color: rgb(191, 255, 0); */
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#text{
+    width: 286px;
+    min-height: 25px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    margin: 20px 17px 10px;
+    padding: 4px 5px;
+    font-size: 15px;
+}
+
+#addto{
+    width: 152px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: lime;
+    border: none;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.list-container{
+    position: relative;
+    top: 1.5rem;
+    width: 296px;
+    margin:0px 17px 50px;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.todos{
+    display: flex;
+    transition: .5s all ease;
+}
+
+.liststyle{
+   list-style: none;
+   padding: 5px 5px;
+   width: 15rem;
+   height: 25px;
+}
+
+.del {
+   width: 20px;
+   height: 20px;
+   background-color: white;
+   color: red;
+   font-size: 20px;
+   border-radius: 50%;
+   border: 2px solid #aaaaaa;
+   margin: 7.5px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.del:hover{
+   color: white;
+   background-color: red;
+   cursor: pointer;
+   border: none;
+}
+
+#icon{
+   pointer-events: none;
+}
+
+.fall{
+   transform: translateY(2rem);
+   opacity: 0;
+}
+
+.button{
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    left: 92px;
+    width: 152px;
+    height: 42;
+    margin: 15px 0 0 0;
+}
+
+.plas{
+    position: absolute;
+    left: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgb(83, 227, 10);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picup,
+#picdown{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 15px;
+}
+
+#picup{
+    display: none;
+}
